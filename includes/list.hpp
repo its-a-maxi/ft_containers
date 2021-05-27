@@ -6,7 +6,7 @@
 /*   By: mmonroy- <mmonroy-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/20 11:51:42 by mmonroy-          #+#    #+#             */
-/*   Updated: 2021/05/11 13:17:56 by mmonroy-         ###   ########.fr       */
+/*   Updated: 2021/05/13 13:14:11 by mmonroy-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -124,7 +124,7 @@ namespace ft
 			_myAllocator(x._myAllocator), _lenght(0)
 			{
 				this->_startlist();
-				this->assign(x.begin(), x.end());
+				*this = x;
 				return ;
 			}	// Copy constructor. Constructs the container with the copy of the contents of other.
 			

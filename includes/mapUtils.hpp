@@ -6,7 +6,7 @@
 /*   By: mmonroy- <mmonroy-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/12 11:25:44 by mmonroy-          #+#    #+#             */
-/*   Updated: 2021/05/13 12:32:02 by mmonroy-         ###   ########.fr       */
+/*   Updated: 2021/05/17 12:37:53 by mmonroy-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,15 +22,14 @@ namespace ft
 
 // --- MapNode declaration for each element of the map ---
 	template <class Key, class T>
-	struct MapMapNode
+	struct MapNode
 	{
 		std::pair<Key, T>	data;
 		MapNode				*parent;
 		MapNode				*left;
 		MapNode				*right;
-		bool				leaf;
+		bool				end;
 	};
-
 
 // --- Bidirectonial Map iterator ---
 	template <class Key, class T>

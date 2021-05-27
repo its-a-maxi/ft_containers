@@ -79,8 +79,7 @@ namespace ft
 				return ;
 			}	// Constructs the container with count copies of elements with value value.
 			template <class InputIterator>
-  			vector
-			 (InputIterator first, InputIterator last, const allocator_type& alloc = allocator_type()) :
+  			vector (InputIterator first, InputIterator last, const allocator_type& alloc = allocator_type()) :
 			_array(0), _lenght(0), _max(0), _myAllocator(alloc)
 			{
 				InputIterator aux = first;
