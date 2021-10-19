@@ -48,7 +48,7 @@ The project consisted of replicating various types of containers present on C++9
 <!-- USAGE EXAMPLES -->
 ## ⌨️ Usage
 
-* Tester (From [t0mm4rx](https://github.com/t0mm4rx/ft_containers_tester))
+* Tester (from [t0mm4rx](https://github.com/t0mm4rx/ft_containers_tester))
 ```sh
   make vector
   make list
