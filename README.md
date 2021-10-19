@@ -17,7 +17,7 @@
 
 _42 Project_
 
-After learning the bases of CPP in the previous project, CPP modules, we were ready to confront a more complex project, _ft_containers_.
+After learning the bases of C++ in the previous project, CPP modules, we were ready to confront a more complex project, _ft_containers_.
 The project consisted of replicating various types of containers present on C++98 STL with all of their functionalities.
 
 ### Subject
