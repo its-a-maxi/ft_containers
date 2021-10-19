@@ -17,12 +17,12 @@
 
 _42 Project_
 
-We were asked to make our own shell, replicating basic functionalities.
-Everything was coded in C, respecting [Norminette](https://cdn.intra.42.fr/pdf/pdf/1608/norme.en.pdf) code convention.
+After learning the bases of CPP in the previous project, CPP modules, we were ready to confront a more complex project, _ft_containers_.
+The project consisted of replicating various types of containers present on C++ STL with almost all of their functionalities.
 
 ### Subject
 
-* [Subject](https://cdn.intra.42.fr/pdf/pdf/32089/en.subject.pdf)
+* [Subject](subject.pdf)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
